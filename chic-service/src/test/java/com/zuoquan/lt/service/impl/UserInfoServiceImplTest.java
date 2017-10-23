@@ -12,7 +12,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 /**
- * Created by liutao on 2017/10/23.
+ * Created by xinyi on 2017/10/23.
  */
 public class UserInfoServiceImplTest extends ChicServiceApplicationTests{
 
