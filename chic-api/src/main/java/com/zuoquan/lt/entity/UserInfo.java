@@ -7,6 +7,7 @@ import java.io.Serializable;
  */
 public class UserInfo implements Serializable{
 
+    private static final long serialVersionUID = 7516824703142171477L;
     private Long id;
     private String name;
     private Integer age;
