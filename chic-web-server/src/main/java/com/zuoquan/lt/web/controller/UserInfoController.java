@@ -35,7 +35,7 @@ public class UserInfoController {
      * 查询用户列表
      * @return
      */
-    @ApiOperation(value="获取用户列表", notes="")
+    @ApiOperation(value="获取用户列表", notes="查询全部用户信息")
     @RequestMapping(value="/list", method=RequestMethod.GET)
     public List<UserInfo> getUserList() {
         // 还可以通过@RequestParam从页面中传递参数来进行查询条件或者翻页信息的传递
