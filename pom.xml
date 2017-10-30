@@ -6,6 +6,7 @@
 	<groupId>com.zuoquan.lt</groupId>
 	<artifactId>chic</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
 	<modules>
 		<module>chic-api</module>
 		<module>chic-service</module>
