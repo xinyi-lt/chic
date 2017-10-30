@@ -33,6 +33,37 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.30</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.zuoquan.lt</groupId>
+			<artifactId>chic-api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid-spring-boot-starter</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+
+		<!--查看druid监控要依赖web进行启动-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<!-- Spring Boot Dubbo 依赖 -->
+		<dependency>
+			<groupId>io.dubbo.springboot</groupId>
+			<artifactId>spring-boot-starter-dubbo</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
